@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
+"""
+Return the floor of n.
+"""
 import math
+
+
 def floor(n: float) -> int:
-    """Return the floor of n."""
+    """
+    floor function
+    """
     return math.floor(n)
