@@ -14,7 +14,6 @@ def index_range(page: int, page_size: int) -> tuple[int, int]:
     return (page_size * (page - 1), page_size * page)
 
 
-
 class Server:
     """
     Server class that loads a CSV dataset and returns paginated data.
