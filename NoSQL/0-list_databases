@@ -1,0 +1,3 @@
+// list the databases files with mongo. 
+
+show databases
