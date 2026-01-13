@@ -1,11 +1,11 @@
 function successMessage() {
-    console.log('Success');
+  console.log('Success');
 }
 
 function failureMessage() {
-    console.log('Failure');
+  console.log('Failure');
 }
 
 export default function getResponseFromAPI() {
-    return new Promise(successMassage, failureMessage);
+  return new Promise(successMessage, failureMessage);
 }
